@@ -1,0 +1,14 @@
+vendor.gatekeeper.disable_spu=true
+ro.display.series=Xiaomi Miatoll
+ro.product.board=atoll
+ro.board.platform=atoll
+ro.boot.dynamic_partitions=true
+ro.boot.avb_version=1.0e
+ro.boot.vbmeta.avb_version=1.0
+ro.adb.secure=0
+sys.usb.controller=a600000.dwc3
+sys.usb.rndis.func.name=rndis_bam
+sys.usb.rmnet.func.name=rmnet_bam
+persist.sys.isUsbOtgEnabled=true
+fbe.metadata.wrappedkey=true
+
