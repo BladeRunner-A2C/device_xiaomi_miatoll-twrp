@@ -62,7 +62,8 @@ TW_EXCLUDE_TWRPAPP := true
 TW_NO_SCREEN_BLANK := true
 TW_NO_EXFAT_FUSE := true
 TW_EXCLUDE_APEX := true
-TW_SUPPORT_INPUT_AIDL_HAPTICS := true
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
+TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone50/temp"
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
